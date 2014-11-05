@@ -20,7 +20,7 @@ $(document).ready(function(e){
 		},false);//se desconecto
 	},false);//ready divice
 });//Document
-function escribeHistoria(accion){
-	$('#eHistoria').append('<li>'+accion+'<li>')
+function escribehistoria(accion){
+	$('#eHistoria').append('<li>'+accion+'</li>');
 }
 
